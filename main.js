@@ -3,7 +3,7 @@ var x = 7.89;
 
 //console.log(Math.floor(x));
 
-var mathFloor = {
+var ndMath = {
     floor : function(x){
        // convert  Numberin into String
         var strX = x.toString();
@@ -34,6 +34,6 @@ var mathFloor = {
 }
 };
 
-var result = mathFloor.floor(x);
+var result = ndMath.floor(x);
 
 console.log(result);
